@@ -56,11 +56,11 @@ def esp32_stream(url):
     cap.release()
     cv2.destroyAllWindows()
 
-# Train the model and save it
+# Training the model and save it
 train_model()
 save_model()
 
 # Start ESP32 video streaming with static IP
-static_ip = 'http://192.168.1.100/video'  # Replace with your actual static IP
+static_ip = 'http://192.168.1.100/video'  
 esp32_stream(static_ip)
 
