@@ -1,1 +1,1 @@
-"yolov8 small model is used to train a model to detect objects and categorize road traffic in real time using esp32 camera module and raspberry pie" 
+This YOLOv8s model is trained on a custom traffic dataset to detect five key object classes: bicycle, bus, car, motorbike, and person. It is optimized for real-time detection in urban environments and can be used in applications like traffic monitoring, smart city systems, and autonomous vehicles.
